@@ -1,37 +1,47 @@
-[{
+[
+    {
         "id": 1,
-        "imageLink": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2017-dodge-viper-1557777646.jpg?crop=0.819xw:1.00xh;0.0929xw,0&resize=640:*"
+        "imageLink": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2017-dodge-viper-1557777646.jpg?crop=0.819xw:1.00xh;0.0929xw,0&resize=640:*",
+        "isClicked": false
     },
     {
         "id": 2,
-        "imageLink": "https://photos.motorcar.com/12308/17958361/17958361_1.jpg"
+        "imageLink": "https://photos.motorcar.com/12308/17958361/17958361_1.jpg",
+        "isClicked": false
     },
     {
         "id": 3,
-        "imageLink": "https://cdn.bringatrailer.com/wp-content/uploads/2018/09/5bc9dae2d3ced_dodge_viper_15398736260a31b88e20ea9924a6viper1-940x576.jpg"
+        "imageLink": "https://cdn.bringatrailer.com/wp-content/uploads/2018/09/5bc9dae2d3ced_dodge_viper_15398736260a31b88e20ea9924a6viper1-940x576.jpg",
+        "isClicked": false
     },
     {
         "id": 4,
-        "imageLink": "https://cdn.motor1.com/images/mgl/7wmJo/s1/2019-chevy-corvette-zr1-hpe1200-by-hennessey.jpg"
+        "imageLink": "https://cdn.motor1.com/images/mgl/7wmJo/s1/2019-chevy-corvette-zr1-hpe1200-by-hennessey.jpg",
+        "isClicked": false
     },
     {
         "id": 5,
-        "imageLink": "https://cdn.motor1.com/images/mgl/4WWQk/s1/corvette-zr1-five-things-to-know.jpg"
+        "imageLink": "https://cdn.motor1.com/images/mgl/4WWQk/s1/corvette-zr1-five-things-to-know.jpg",
+        "isClicked": false
     },
     {
         "id": 6,
-        "imageLink": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/lightning-lap-2018-2019-chevrolet-corvette-zr1-ll-lead-1536942616.jpg"
+        "imageLink": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/lightning-lap-2018-2019-chevrolet-corvette-zr1-ll-lead-1536942616.jpg",
+        "isClicked": false
     },
     {
         "id": 7,
-        "imageLink": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/lightning-lap-2018-2017-ford-gt-ll-lead-1536943139.jpg"
+        "imageLink": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/lightning-lap-2018-2017-ford-gt-ll-lead-1536943139.jpg",
+        "isClicked": false
     },
     {
         "id": 8,
-        "imageLink": "https://images.hgmsites.net/hug/ford-gt_100676778_h.jpg"
+        "imageLink": "https://images.hgmsites.net/hug/ford-gt_100676778_h.jpg",
+        "isClicked": false
     },
     {
         "id": 9,
-        "imageLink": "https://robbreportedit.files.wordpress.com/2020/03/4-8.jpg?w=1000"
+        "imageLink": "https://robbreportedit.files.wordpress.com/2020/03/4-8.jpg?w=1000",
+        "isClicked": false
     }
 ]

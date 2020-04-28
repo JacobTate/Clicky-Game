@@ -1,6 +1,8 @@
 .card{
-    width: 400px;
+    width: fit-content;
+    margin-bottom: 100px;
 }
 .card-image{
-    width: 300px;
+    width: fit-content;
+    max-width: 300px;
 }
