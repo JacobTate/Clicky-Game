@@ -1,28 +1,27 @@
-import React from "react";
+import React, { Component } from "react";
 import Card from "../card";
 import "./style.css"
-function Container(props) {
-   var shuffle = function(a) {
+class Container extends Component {
+    shuffle (a) {
         for (let i = a.length - 1; i > 0; i--) {
             const j = Math.floor(Math.random() * (i + 1));
             [a[i], a[j]] = [a[j], a[i]];
         }
-        console.log(a);
-        
         return a;
-      }
+      };
+      render () {
 return (
 <div className="container">
-{shuffle(props.imageArr).map(image => (
+{this.shuffle(this.props.imageArr).map(image => (
          <Card
-         imageArr={props.imageArr}
+         imageId={image.id}
          imageLink={image.imageLink}
          key={image.id}
-         shuffle={shuffle}
-         checkIfClicked={props.checkIfClicked}
+         getItemId={this.props.getItemId}
          />
        ))}
 </div>
 )
+      }
 }
 export default Container;
