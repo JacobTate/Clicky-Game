@@ -18,7 +18,7 @@ class App extends Component {
         alert("oops you already picked that one");
         if(this.state.currentScore >= this.state.highScore){
         this.setState({
-          highScore: this.state.pickedCars.length
+          highScore: this.state.currentScore
         })
         this.setState({
           currentScore: 0
@@ -39,8 +39,18 @@ class App extends Component {
     this.setState({
       currentScore: this.state.currentScore + 1
     })
-    console.log(this.state.currentScore);
-    
+    if(this.state.currentScore >= this.state.highScore){
+      this.setState({
+        highScore: this.state.pickedCars.length + 1
+      })
+    };
+    if(this.state.highScore === 9){
+      alert("You Win!!!!!")
+      this.state.pickedCars.length = 0;
+      this.setState({
+        currentScore: 0
+      })
+    }
   };  
   render() {
     return ( 
