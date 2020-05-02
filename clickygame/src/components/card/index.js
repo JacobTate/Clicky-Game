@@ -7,6 +7,12 @@ function Card (props) {
        <img className="card-image" src={props.imageLink} alt={"asdf"}/> 
     </div>
   </div>
+/* <div
+      role="img"
+      aria-label="click item"
+      onClick={() => props.getItemId(props.imageId)}
+      style={{ backgroundImage: `url("${props.imageLink}")` }}
+    /> */
    )
 }
 export default Card;
