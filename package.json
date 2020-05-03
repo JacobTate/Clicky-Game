@@ -2,7 +2,7 @@
   "name": "clickygame",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://jacobTate.github.io/react-gh-pages",
+  "homepage": "https://jacobtate.github.io/Clicky-Game/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
